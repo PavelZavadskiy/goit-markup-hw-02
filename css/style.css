@@ -68,7 +68,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .header-menu-link:hover,
@@ -92,6 +92,11 @@ a {
     cursor: pointer;
 }
 
+.btn:hover,
+.btn:focus {
+    background: var(--bg-color-btn-hf);
+}
+
 .btn-portfolio {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -106,7 +111,8 @@ a {
 
 .btn:hover,
 .btn:focus {
-    background: var(--bg-color-btn-hf);
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .main-title {
