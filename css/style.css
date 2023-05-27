@@ -18,6 +18,15 @@ body {
 
 header {
     background-color: #fff;
+    border-bottom: solid #E7E9FC;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
 
 .logo-link {
@@ -27,7 +36,15 @@ header {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+header .logo-link span {
     color: #2E2F42;
+}
+
+footer .logo-link span {
+    color: #F4F4FD;
 }
 
 .header-menu-link {
@@ -105,3 +122,11 @@ footer {
 }
 
 footer p {}
+
+.main-title-portfolio {
+    display: none;
+}
+
+.advantages-title {
+    display: none;
+}
