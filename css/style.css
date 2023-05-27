@@ -18,19 +18,28 @@ body {
 
 header {
     background-color: #fff;
-    border-bottom: solid #E7E9FC;
+    /* border-bottom: solid #E7E9FC; */
 }
 
 a {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
+.link {
+    text-decoration: none;
 }
 
-.logo-link {
-    font-family: 'Raleway';
+.paragraf {
+    font-size: 16px;
+}
+
+.paragraf-portfolio {
+    font-size: 16px;
+    color: #434455;
+}
+
+.link-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 117%;
@@ -39,16 +48,27 @@ li {
     color: #4D5AE5;
 }
 
-header .logo-link span {
+.header-logo-link {
     color: #2E2F42;
 }
 
-footer .logo-link span {
+.footer-logo-link {
     color: #F4F4FD;
+}
+
+address {
+    font-style: normal
+}
+
+.list {
+    list-style: none;
 }
 
 .header-menu-link {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-heder-link);
 }
 
@@ -62,11 +82,14 @@ footer .logo-link span {
 }
 
 .btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+    /* border-radius: 4px; */
     background: var(--bg-color-btn);
     border: none;
     cursor: pointer;
@@ -77,28 +100,31 @@ footer .logo-link span {
     background: var(--bg-color-btn-hf);
 }
 
-h1 {
+.main-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
 
-h2 {
+.second-title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
 }
 
-h3 {
+.third-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -110,23 +136,24 @@ h3 {
     background-color: #F4F4FD;
 }
 
-team-section li {
+.team-list-element {
     background-color: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+    /* border-radius: 0px 0px 4px 4px; */
 }
 
 footer {
     background-color: #2E2F42;
+}
+
+footer .paragraf {
     color: #F4F4FD;
 }
 
-footer p {}
-
 .main-title-portfolio {
-    display: none;
+    /* display: none; */
 }
 
 .advantages-title {
-    display: none;
+    /* display: none; */
 }
