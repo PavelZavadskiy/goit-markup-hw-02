@@ -109,8 +109,8 @@ a {
     cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
